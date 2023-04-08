@@ -32,4 +32,27 @@ The output layer was set to a unit of 1 since this is a binary classifier. We ar
 
 ![image](https://user-images.githubusercontent.com/117782103/230746284-f1772799-bd28-4495-a9fa-0229304f7836.png)
 
-We were not able to achieve the target model performance of 75%. Our model accuracy was 
+We were not able to achieve the target model performance of 75%. Our model accuracy was 70%
+
+![image](https://user-images.githubusercontent.com/117782103/230746535-a78ddaaa-342c-46ce-91ea-6e359ecc06fc.png)
+
+The first thing I did to try and increase the accuracy was to add additional hidden layers. Two more hidden layers were added for a total of 4. 
+
+![image](https://user-images.githubusercontent.com/117782103/230746572-700eba7d-9677-48fe-b192-09fa19a7a23f.png)
+
+Our accuracy decreased to 53%. 
+![image](https://user-images.githubusercontent.com/117782103/230746584-5b43c645-2f4e-4382-ba30-3af2e102552e.png)
+
+The second thing tried was to go back to 2 hidden layers, adjust the neurons and adjust the epochs to 50 as we were not seeing much change after 50 epochs. 
+
+![image](https://user-images.githubusercontent.com/117782103/230746608-2a50ec1e-b941-46a7-90a8-6f9e579f343f.png)
+
+The accuracy was basically the same at 53.6%.
+
+![image](https://user-images.githubusercontent.com/117782103/230746629-311eb512-48ef-4cc3-82e2-bdc0872575fc.png)
+
+The last attempt made was to use different activation functions. Sigmoid activation was used for all layers. 
+
+
+
+
