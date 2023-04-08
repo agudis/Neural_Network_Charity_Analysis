@@ -53,6 +53,18 @@ The accuracy was basically the same at 53.6%.
 
 The last attempt made was to use different activation functions. Sigmoid activation was used for all layers. 
 
+![image](https://user-images.githubusercontent.com/117782103/230746795-f38a2456-ef6a-46d7-bddc-6e858ff0c91b.png)
 
+Unfortunately this did not make a difference and the accuracy was still only 53%. 
+
+![image](https://user-images.githubusercontent.com/117782103/230746808-3ee2579b-aa85-4e68-bd9f-8eeac556332a.png)
+
+## Summary 
+
+In our model analysis, we tried using a different number of hidden layers, different activation functions, various different numbers of neuros and different epochs. Everything that was tried did not allow for our data to achieve 75% accuracy. I would not be comfortable having Alphabet Soup use any of the above models to determine if a company they are considering funding will be successful or not. 
+
+### Recommendation 
+
+My recommendation for solving this classification problem would be to either use the automized method, keras tuner to see if that could help you achieve accuracy. If that does not work, the data needs to be analyzed further to determine if any outliers exist that need to be removed in order to more accurately predict our results. 
 
 
